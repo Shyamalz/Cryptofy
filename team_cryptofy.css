@@ -1,0 +1,146 @@
+body{
+    /* background-image: url("img/Black\ Abstract\ Background\ Free\ Vector\ Art-01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    background-color:rgb(48, 103, 240) !important ;
+    margin: 0;
+}
+
+.navbar{
+    background:white;
+    height: 110px;
+}
+a{
+    color: black;
+}
+a.logoname{
+    font-size: 45px;
+}
+.sign{
+    font-family: Sacrament;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.logoimg{
+    margin-bottom: 0;
+    margin-top: 3px;
+    margin-left: 15px;
+    margin-right: 30px;
+    height:5%;
+    width: 5%;
+}
+#logo{
+    display:inline-block;
+    width:100%;
+}
+
+.ret{
+    display: inline-block;
+}
+.laptop{
+    margin-top: 100px;
+    float:right;    
+}
+nav ul{
+    float: right;
+    margin-top: 20px;
+}
+.heading{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 40px;
+    padding: 0px 0;
+    margin-right:20px;
+    margin-left:5px;
+    font-family: "cinzel";
+    font-weight: bolder;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 16px 16px;
+    margin-right:50px;
+    margin-left:30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-left: darkgray solid;
+}
+nav a{ 
+    color:black;
+    text-decoration: none;
+}
+.main-heading{
+  margin: 4% auto 2% auto;
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  font-family: "Fredoka+One";
+  text-decoration: underline;
+  
+  width: fit-content;
+}
+
+.main-heading:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 5px #ffee10;
+    transform: translateZ(+10);
+}
+.card{
+   margin: 21% 3% 8% 3%;
+   height: 77%;
+}
+.card:hover{
+    transform: translateY(-10px);
+    text-shadow: 0 0 5px;
+}
+.card-header{
+    text-align: center;
+}
+.profile{
+    text-align: center;
+    width: 50%;
+    margin: 3% auto 3% auto;
+    padding: 2% auto 2% auto;
+    border-radius: 100%;
+}
+.card-footer{
+    text-align: center;
+}
+.follow-us{
+    display: flex;
+    list-style: none;
+    font-size: 150%;
+    margin: 2% auto 2% auto;
+    text-align: center;
+    padding: 0;
+}
+.follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 15px;
+}
+.follow-us li .fa{ 
+    font-size:24px; 
+}
+.section-heading{
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-family: "cinzel";
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.links{
+    color: black;
+    text-decoration: none;
+}
+.section-subheading{
+    font-size: 1rem;
+    font-family: "cinzel";
+    font-weight: bolder;
+    text-align: center;
+}
