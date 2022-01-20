@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Form web dev</title>
+    </head>
+    <body bgcolor="#ffffee">
+        <!--Web Page starts with a heading-->
+        <div style="color:rgb(98, 90, 211);font-size:40px;
+                font-weight:bold;text-align:center;text-decoration: underline;">Enter Details</div>
+        <!--form begins-->
+    <form>
+        <p style="text-align: left;font-size: 30px;">Enter name: 
+            <input type="text" placeholder="Name" required="required"></input>
+        </p>
+        <!--drop down date and month menu-->
+        <p style="text-align:left;font-size:30px;">Enter date: 
+            <select name="date">
+                <option selected="selected">1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+        </p>
+        <p style="text-align:left;font-size:30px;">
+        Option to choose month:
+        <select name="month">
+            <option selected="selected">January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+        </p>
+        <p style="text-align:left;font-size:30px;">Enter year: 
+            <input type="number" placeholder="year"></input>
+        </p>
+        <!--alternative for dob-->
+        <p style="text-align:left;font-size:30px;">Enter dob: 
+            <input type="date" />
+        </p>
+        <!--radio buttons for gender-->
+        <p style="text-align:left;font-size:30px;">Gender: 
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female"/>
+            <label for="female">female</label>
+            <input type="radio" id="other" name="gender" value="other"/>
+            <label for="other">other</label>
+        </p>
+        <p style="text-align:left;font-size:30px;">Enter email: 
+            <input type="email" placeholder="email" />
+        </p>
+        <!--button for submission of form-->
+        <button style="font-size: 30px;">submit</button>
+    </form>
+    </body>
+</html>
